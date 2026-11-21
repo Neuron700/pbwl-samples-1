@@ -10,8 +10,6 @@ Aplikasi **Sistem Akademik** berbasis **PHP OOP** tanpa framework, dengan CRUD M
 
 </div>
 
----
-
 ## 📖 Deskripsi
 
 Koneksi di `app/Koneksi.php`, class model di `app/Mahasiswa.php`. Alurnya sengaja dibuat polos agar alur OOP + PDO terlihat jelas: `index.php` menerima parameter `?page=`, lalu menyertakan file halaman yang bersangkutan, yang memanggil class model.
